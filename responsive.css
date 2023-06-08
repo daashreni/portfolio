@@ -1,0 +1,63 @@
+@media only screen and (max-width:600px)
+{
+  .header-text{
+    margin-top:100%;
+    font-size: 20px;
+    text-align: left;
+    }
+   .header-text h1{
+    text-align: left;
+    font-size: 20px;
+  }
+  /* nav .fa-solid{
+    display: block;
+    font-size: 25px;  
+  }
+  nav ul{
+    background: #262626;
+    position: fixed;
+    top:0;
+    right: 0;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+  }
+nav ul li{
+    display: block;
+    mar
+}*/
+.sub{
+    font-size: 25px;
+    text-align: left;
+}
+.para{
+    margin: 20px auto;
+    padding: 10px 50px;
+    width: 360px;
+    font-size: 15px;
+}
+.services-list{
+    flex-direction: column ;
+}
+.contact-right form {
+  width: 90%;
+}
+form .btn2{
+  margin-left: 70px;
+}
+.copyright{
+  width: 50;
+}
+form input, form textarea{
+  margin: 10px 0px;
+}
+.contact-right {
+  width: 369px;
+}
+.tab-titles{
+  width: 323px;
+}
+.all ~ div{
+  overflow-x: hidden;
+}
+}

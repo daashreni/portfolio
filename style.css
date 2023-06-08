@@ -3,7 +3,9 @@
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
     /* overflow-x:hidden; */
+    /* border:1px solid red; */
 }
 
 body {
@@ -126,7 +128,7 @@ nav ul li a:hover::after {
 
 .sub span {
     font-size: 60px;
-    color: #e88ade;
+    color: #ff004f;
 }
 
 .para {
@@ -137,7 +139,6 @@ nav ul li a:hover::after {
     flex-direction: row;
     flex-wrap: wrap;
     color: #fff;
-
 }
 
 .tab-titles {
@@ -215,14 +216,21 @@ svg {
 }
 
 .sub-title span {
-    color: #e88ade;
+    color:#ff004f;
+}
+.sub-title1 span {
+    color:#ff004f;
 }
 
 .services-list {
+    display: flex ;
+    margin: 50px auto;
+}
+/* .services-list {
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 50px auto;
-}
+} */
 
 .services-list div {
     background: #ff004f75;
@@ -461,4 +469,7 @@ form .btn2 {
     font-weight: 300;
     margin-top: 20px;
 
+}
+nav .fa-solid{
+    display: none;
 }

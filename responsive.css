@@ -54,6 +54,9 @@
   .all~div {
     overflow-x: hidden;
   }
+  .work-list {
+  flex-direction: column;
+ }
 
   /* ........ */
   nav .mainMenu {
